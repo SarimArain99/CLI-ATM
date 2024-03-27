@@ -1,10 +1,13 @@
 {
-  "name": "cli-atm",
+  "name": "@sarimarain/cli-atm",
   "version": "1.0.0",
   "description": "a simple ATM application system",
   "main": "main.js",
   "type": "module",
   "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
